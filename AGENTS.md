@@ -51,7 +51,7 @@ See [README.md](README.md) for installation and usage. Short version:
 
 ```bash
 # Works with any harness listed above
-npx skills add dani-z/security-advisor -g
+npx skills add wearemonad/security-advisor -g
 ```
 
 ## License

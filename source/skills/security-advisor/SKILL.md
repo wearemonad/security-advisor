@@ -13,7 +13,7 @@ description: |
   / OWASP LLM Top 10 2025. Complements /cso — this skill is a dialog, /cso is an audit.
 license: Apache-2.0
 metadata:
-  author: dani-z
+  author: wearemonad
   version: "1.0.1"
 allowed-tools:
   - Bash
