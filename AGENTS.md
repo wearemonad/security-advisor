@@ -56,4 +56,4 @@ npx skills add wearemonad/security-advisor -g
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE).
+Apache 2.0 © 2026 We Are Monad — see [LICENSE](LICENSE).

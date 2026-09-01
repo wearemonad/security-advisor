@@ -369,4 +369,4 @@ npx skills update security-advisor
 
 ## License
 
-See [LICENSE](LICENSE).
+Apache 2.0 © 2026 We Are Monad — see [LICENSE](LICENSE).
