@@ -18,7 +18,17 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:claude.ai)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(gh pr create --title 'Expand stack coverage and make skill project-agnostic' --body ':*)",
+      "Bash(gh repo:*)",
+      "Bash(gh pr:*)",
+      "Bash(git stash:*)",
+      "Bash(git tag:*)",
+      "Bash(gh api:*)",
+      "Bash(gh search:*)",
+      "Bash(gh issue:*)",
+      "Bash(curl -sSfL https://raw.githubusercontent.com/wearemonad/security-advisor/main/source/skills/security-advisor/metadata.json)",
+      "Bash(curl -sSfL https://raw.githubusercontent.com/wearemonad/security-advisor/v1.0.1/source/skills/security-advisor/metadata.json)"
     ]
   }
 }

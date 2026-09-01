@@ -33,23 +33,23 @@ Works with Claude Code, OpenCode, Codex, Cursor, and 40+ other agents:
 
 ```bash
 # Install globally (recommended for a security tool you'll want everywhere)
-npx skills add dani-z/security-advisor -g
+npx skills add wearemonad/security-advisor -g
 
 # Interactive install — runs a wizard that asks which agent(s) and whether to install globally or into the current project
-npx skills add dani-z/security-advisor
+npx skills add wearemonad/security-advisor
 
 # Target a specific agent, globally
-npx skills add dani-z/security-advisor -g -a claude-code
-npx skills add dani-z/security-advisor -g -a cursor
-npx skills add dani-z/security-advisor -g -a codex
-npx skills add dani-z/security-advisor -g -a opencode
-npx skills add dani-z/security-advisor -g -a gemini
+npx skills add wearemonad/security-advisor -g -a claude-code
+npx skills add wearemonad/security-advisor -g -a cursor
+npx skills add wearemonad/security-advisor -g -a codex
+npx skills add wearemonad/security-advisor -g -a opencode
+npx skills add wearemonad/security-advisor -g -a gemini
 
 # Install into just the current project (drop the -g flag)
-npx skills add dani-z/security-advisor -a claude-code
+npx skills add wearemonad/security-advisor -a claude-code
 
 # All agents, non-interactive (CI/CD friendly)
-npx skills add dani-z/security-advisor -g --all -y
+npx skills add wearemonad/security-advisor -g --all -y
 ```
 
 `-g` installs to `~/<agent>/skills/` (available across all projects). Without `-g`, the skill installs into `./<agent>/skills/` in the current project so it can be committed alongside your code.
@@ -64,7 +64,7 @@ For agents that look for skills inside the project directory (Cursor, Kiro, Rovo
 
 ```bash
 cd your-project
-git clone https://github.com/dani-z/security-advisor .skills-source
+git clone https://github.com/wearemonad/security-advisor .skills-source
 # Then symlink the harness-specific dirs you need, e.g.:
 ln -s .skills-source/.claude .claude
 # or just copy the whole directory
@@ -75,7 +75,7 @@ The repo already ships pre-materialised directories for every harness (`.claude/
 ### Option C — global, without a CLI
 
 ```bash
-git clone https://github.com/dani-z/security-advisor ~/.security-advisor
+git clone https://github.com/wearemonad/security-advisor ~/.security-advisor
 
 # Claude Code
 ln -s ~/.security-advisor/source/skills/security-advisor ~/.claude/skills/security-advisor
@@ -369,4 +369,4 @@ npx skills update security-advisor
 
 ## License
 
-See [LICENSE](LICENSE).
+Apache 2.0 © 2026 We Are Monad — see [LICENSE](LICENSE).

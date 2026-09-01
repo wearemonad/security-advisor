@@ -51,9 +51,9 @@ See [README.md](README.md) for installation and usage. Short version:
 
 ```bash
 # Works with any harness listed above
-npx skills add dani-z/security-advisor -g
+npx skills add wearemonad/security-advisor -g
 ```
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE).
+Apache 2.0 © 2026 We Are Monad — see [LICENSE](LICENSE).
